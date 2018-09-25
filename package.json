@@ -1,0 +1,9 @@
+{
+  "name": "planorg.de.kem.HotOdata",
+  "version": "1.0.4",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@sap/grunt-sapui5-bestpractice-build": "1.3.62"
+  }
+}

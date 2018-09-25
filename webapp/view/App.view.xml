@@ -1,0 +1,27 @@
+<mvc:View 
+	controllerName="planorg.de.kem.planorg.de.kem.HotOdata.controller.App"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:xt="planorg.de.kem.planorg.de.kem.HotOdata.control"
+	displayBlock="true"
+	xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<xt:Hot
+						id="xgHandsontable"
+						hotinit="onHotInit"
+						options="{
+							rowHeaders: true,
+							contextMenu: true
+						}"
+						tabledata="{
+							path: 'data>/ZBIP_HC_ALV_KODIERBERSet'
+					}"
+					/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
